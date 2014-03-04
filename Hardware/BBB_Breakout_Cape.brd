@@ -131,7 +131,7 @@
 <wire x1="73.66" y1="0" x2="6.35" y2="0" width="0" layer="20"/>
 <wire x1="6.35" y1="0" x2="0" y2="6.35" width="0" layer="20" curve="-90"/>
 <wire x1="0" y1="6.35" x2="0" y2="20.955" width="0" layer="20"/>
-<text x="17.78" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="SR270" align="bottom-center">I2C EN</text>
+<text x="17.78" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="SR270" align="bottom-center">PU EN</text>
 <text x="13.843" y="19.812" size="0.8128" layer="21" font="vector" ratio="15" rot="SR0" align="bottom-center">WP</text>
 <text x="1.524" y="16.383" size="0.8128" layer="21" font="vector" ratio="15" rot="SR270" align="top-center">A0</text>
 <text x="1.524" y="14.097" size="0.8128" layer="21" font="vector" ratio="15" rot="SR270" align="top-center">A1</text>
