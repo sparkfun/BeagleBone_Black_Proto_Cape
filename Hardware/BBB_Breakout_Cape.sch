@@ -18056,7 +18056,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <text x="137.16" y="10.16" size="1.778" layer="97" align="bottom-center">0x55</text>
 <text x="137.16" y="3.81" size="1.778" layer="97" align="bottom-center">0x57</text>
 <text x="176.53" y="11.43" size="2.54" layer="94" align="bottom-center">Casey Kuhns</text>
-<text x="241.3" y="7.62" size="2.54" layer="94" align="bottom-center">v01</text>
+<text x="241.3" y="7.62" size="2.54" layer="94" align="bottom-center">v10</text>
 <text x="102.87" y="67.31" size="1.27" layer="97" align="bottom-center">WP default is off
 Pull high to enable</text>
 <text x="25.4" y="52.07" size="1.27" layer="97" align="bottom-center">Address select
