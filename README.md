@@ -15,6 +15,7 @@ Repository Contents
 Version History
 ---------------
 * [V_1.0.0](https://github.com/sparkfun/BeagleBone_Black_Proto_Cape/tree/V_1.0.0) - Public release
+* [V_1.0.1](https://github.com/sparkfun/BeagleBone_Black_Proto_Cape/tree/V_1.0.1) - Updated jumper packages to DFM standard (Increased aperture).
 
 License Information
 -------------------

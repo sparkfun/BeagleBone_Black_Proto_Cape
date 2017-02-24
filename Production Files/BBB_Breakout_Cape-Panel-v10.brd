@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,46 +23,50 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="6" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="yes"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="yes"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -71,40 +75,59 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -113,9 +136,19 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -1918,49 +1951,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
-<library name="SparkFun-Passives">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SJ_2S-NO">
-<description>Small solder jumper with no paste layer so it will open after reflow.</description>
-<wire x1="0.8" y1="-1" x2="-0.8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="1" x2="1" y2="0.7" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="0.7" x2="-0.8" y2="1" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1" y1="-0.7" x2="-0.8" y2="-1" width="0.2032" layer="21" curve="90"/>
-<wire x1="0.8" y1="-1" x2="1" y2="-0.7" width="0.2032" layer="21" curve="90"/>
-<wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-0.908" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.908" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SJ_3_PASTE1&amp;2&amp;3">
-<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.508" x2="-1.016" y2="0.508" width="0.127" layer="51"/>
-<wire x1="-1.016" y1="0.508" x2="-1.016" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="-1.016" y1="-0.508" x2="1.016" y2="-0.508" width="0.127" layer="51"/>
-<wire x1="1.016" y1="-0.508" x2="1.016" y2="0.508" width="0.127" layer="51"/>
-<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-0.33138125" y="-0.4445" size="0.254" layer="51" rot="R40">PASTE</text>
-<rectangle x1="-1.4224" y1="-0.9906" x2="1.4224" y2="0.9906" layer="31"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Capacitors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -2235,6 +2225,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Jumpers">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_2_NO_SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.8636" y1="-1.016" x2="-0.8636" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="1.016" x2="1.1176" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="0.762" x2="-0.8636" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.1176" y1="-0.762" x2="-0.8636" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.8636" y1="-1.016" x2="1.1176" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.1176" y1="-0.762" x2="1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-0.762" x2="-1.1176" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="1.016" x2="0.8636" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+<package name="SMT-JUMPER_3_2-NC_PASTE_SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<rectangle x1="-1.651" y1="-1.1176" x2="1.651" y2="1.1176" layer="31"/>
+<smd name="1" x="-0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.8128" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2323,6 +2360,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -2452,7 +2492,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.987" y="25.527" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="22.86" y="23.622" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="SJ1" library="SparkFun-Passives" package="SJ_3_PASTE1&amp;2&amp;3" value="I2C EN" x="26.543" y="23.876" smashed="yes" rot="R270">
+<element name="SJ1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_PASTE_SILK" value="I2C EN" x="26.543" y="23.876" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.813" y="25.146" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="24.638" y="25.146" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -2468,15 +2508,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="87.7062" y="16.9672" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="U$5" library="SparkFun-Connectors" package="1X23" value="M23" x="59.69" y="21.336" smashed="yes" rot="R180"/>
-<element name="SJ3" library="SparkFun-Passives" package="SJ_2S-NO" value="A1" x="12.954" y="25.146" smashed="yes">
+<element name="SJ3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="A1" x="12.954" y="25.146" smashed="yes">
 <attribute name="NAME" x="12.046" y="26.416" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="12.046" y="23.495" size="0.4064" layer="27"/>
 </element>
-<element name="SJ4" library="SparkFun-Passives" package="SJ_2S-NO" value="A0" x="12.954" y="27.686" smashed="yes">
+<element name="SJ4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="A0" x="12.954" y="27.686" smashed="yes">
 <attribute name="NAME" x="12.046" y="28.956" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="12.046" y="26.035" size="0.4064" layer="27"/>
 </element>
-<element name="SJ5" library="SparkFun-Passives" package="SJ_2S-NO" value="WP" x="23.876" y="29.718" smashed="yes" rot="R180">
+<element name="SJ5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="WP" x="23.876" y="29.718" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.784" y="28.448" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="24.784" y="31.369" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2548,7 +2588,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="113.157" y="25.527" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.03" y="23.622" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="SJ2" library="SparkFun-Passives" package="SJ_3_PASTE1&amp;2&amp;3" value="I2C EN" x="116.713" y="23.876" smashed="yes" rot="R270">
+<element name="SJ2" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_PASTE_SILK" value="I2C EN" x="116.713" y="23.876" smashed="yes" rot="R270">
 <attribute name="NAME" x="117.983" y="25.146" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="114.808" y="25.146" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -2564,15 +2604,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="177.8762" y="16.9672" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="U$11" library="SparkFun-Connectors" package="1X23" value="M23" x="149.86" y="21.336" smashed="yes" rot="R180"/>
-<element name="SJ6" library="SparkFun-Passives" package="SJ_2S-NO" value="A1" x="103.124" y="25.146" smashed="yes">
+<element name="SJ6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="A1" x="103.124" y="25.146" smashed="yes">
 <attribute name="NAME" x="102.216" y="26.416" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="102.216" y="23.495" size="0.4064" layer="27"/>
 </element>
-<element name="SJ7" library="SparkFun-Passives" package="SJ_2S-NO" value="A0" x="103.124" y="27.686" smashed="yes">
+<element name="SJ7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="A0" x="103.124" y="27.686" smashed="yes">
 <attribute name="NAME" x="102.216" y="28.956" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="102.216" y="26.035" size="0.4064" layer="27"/>
 </element>
-<element name="SJ8" library="SparkFun-Passives" package="SJ_2S-NO" value="WP" x="114.046" y="29.718" smashed="yes" rot="R180">
+<element name="SJ8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="WP" x="114.046" y="29.718" smashed="yes" rot="R180">
 <attribute name="NAME" x="114.954" y="28.448" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="114.954" y="31.369" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2644,7 +2684,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.987" y="84.963" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="22.86" y="83.058" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="SJ9" library="SparkFun-Passives" package="SJ_3_PASTE1&amp;2&amp;3" value="I2C EN" x="26.543" y="83.312" smashed="yes" rot="R270">
+<element name="SJ9" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_PASTE_SILK" value="I2C EN" x="26.543" y="83.312" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.813" y="84.582" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="24.638" y="84.582" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -2660,15 +2700,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="87.7062" y="76.4032" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="U$17" library="SparkFun-Connectors" package="1X23" value="M23" x="59.69" y="80.772" smashed="yes" rot="R180"/>
-<element name="SJ10" library="SparkFun-Passives" package="SJ_2S-NO" value="A1" x="12.954" y="84.582" smashed="yes">
+<element name="SJ10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="A1" x="12.954" y="84.582" smashed="yes">
 <attribute name="NAME" x="12.046" y="85.852" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="12.046" y="82.931" size="0.4064" layer="27"/>
 </element>
-<element name="SJ11" library="SparkFun-Passives" package="SJ_2S-NO" value="A0" x="12.954" y="87.122" smashed="yes">
+<element name="SJ11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="A0" x="12.954" y="87.122" smashed="yes">
 <attribute name="NAME" x="12.046" y="88.392" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="12.046" y="85.471" size="0.4064" layer="27"/>
 </element>
-<element name="SJ12" library="SparkFun-Passives" package="SJ_2S-NO" value="WP" x="23.876" y="89.154" smashed="yes" rot="R180">
+<element name="SJ12" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="WP" x="23.876" y="89.154" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.784" y="87.884" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="24.784" y="90.805" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2740,7 +2780,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="113.157" y="84.963" size="0.4064" layer="25" font="vector"/>
 <attribute name="VALUE" x="113.03" y="83.058" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="SJ13" library="SparkFun-Passives" package="SJ_3_PASTE1&amp;2&amp;3" value="I2C EN" x="116.713" y="83.312" smashed="yes" rot="R270">
+<element name="SJ13" library="SparkFun-Jumpers" package="SMT-JUMPER_3_2-NC_PASTE_SILK" value="I2C EN" x="116.713" y="83.312" smashed="yes" rot="R270">
 <attribute name="NAME" x="117.983" y="84.582" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="114.808" y="84.582" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -2756,15 +2796,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="177.8762" y="76.4032" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="U$23" library="SparkFun-Connectors" package="1X23" value="M23" x="149.86" y="80.772" smashed="yes" rot="R180"/>
-<element name="SJ14" library="SparkFun-Passives" package="SJ_2S-NO" value="A1" x="103.124" y="84.582" smashed="yes">
+<element name="SJ14" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="A1" x="103.124" y="84.582" smashed="yes">
 <attribute name="NAME" x="102.216" y="85.852" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="102.216" y="82.931" size="0.4064" layer="27"/>
 </element>
-<element name="SJ15" library="SparkFun-Passives" package="SJ_2S-NO" value="A0" x="103.124" y="87.122" smashed="yes">
+<element name="SJ15" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="A0" x="103.124" y="87.122" smashed="yes">
 <attribute name="NAME" x="102.216" y="88.392" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="102.216" y="85.471" size="0.4064" layer="27"/>
 </element>
-<element name="SJ16" library="SparkFun-Passives" package="SJ_2S-NO" value="WP" x="114.046" y="89.154" smashed="yes" rot="R180">
+<element name="SJ16" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" value="WP" x="114.046" y="89.154" smashed="yes" rot="R180">
 <attribute name="NAME" x="114.954" y="87.884" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="114.954" y="90.805" size="0.4064" layer="27" rot="R180"/>
 </element>
@@ -2944,7 +2984,7 @@ design rules under a new name.</description>
 <wire x1="15.6718" y1="25.781" x2="17.018" y2="25.781" width="0.254" layer="1"/>
 <contactref element="SJ3" pad="2"/>
 <wire x1="15.6718" y1="25.781" x2="14.039" y2="25.781" width="0.4064" layer="1"/>
-<wire x1="14.039" y1="25.781" x2="13.404" y2="25.146" width="0.4064" layer="1"/>
+<wire x1="14.039" y1="25.781" x2="13.3604" y2="25.146" width="0.4064" layer="1"/>
 </signal>
 <signal name="A0">
 <contactref element="U1" pad="1"/>
@@ -2953,7 +2993,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="27.051" x2="15.6718" y2="27.051" width="0.254" layer="1"/>
 <contactref element="SJ4" pad="2"/>
 <wire x1="15.24" y1="27.051" x2="14.039" y2="27.051" width="0.4064" layer="1"/>
-<wire x1="14.039" y1="27.051" x2="13.404" y2="27.686" width="0.4064" layer="1"/>
+<wire x1="14.039" y1="27.051" x2="13.3604" y2="27.686" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="SJ1" pad="3"/>
@@ -4383,7 +4423,7 @@ design rules under a new name.</description>
 <contactref element="R6" pad="2"/>
 <contactref element="U1" pad="7"/>
 <wire x1="23.026" y1="26.162" x2="24.326" y2="27.462" width="0.254" layer="1"/>
-<wire x1="24.326" y1="27.462" x2="24.326" y2="29.718" width="0.254" layer="1"/>
+<wire x1="24.326" y1="27.462" x2="24.2824" y2="29.718" width="0.254" layer="1"/>
 <wire x1="20.9042" y1="25.781" x2="22.645" y2="25.781" width="0.254" layer="1"/>
 <wire x1="22.645" y1="25.781" x2="23.026" y2="26.162" width="0.254" layer="1"/>
 </signal>
@@ -4556,7 +4596,7 @@ design rules under a new name.</description>
 <wire x1="105.8418" y1="25.781" x2="107.188" y2="25.781" width="0.254" layer="1"/>
 <contactref element="SJ6" pad="2"/>
 <wire x1="105.8418" y1="25.781" x2="104.209" y2="25.781" width="0.4064" layer="1"/>
-<wire x1="104.209" y1="25.781" x2="103.574" y2="25.146" width="0.4064" layer="1"/>
+<wire x1="104.209" y1="25.781" x2="103.5304" y2="25.146" width="0.4064" layer="1"/>
 </signal>
 <signal name="A3">
 <contactref element="U2" pad="1"/>
@@ -4565,7 +4605,7 @@ design rules under a new name.</description>
 <wire x1="105.41" y1="27.051" x2="105.8418" y2="27.051" width="0.254" layer="1"/>
 <contactref element="SJ7" pad="2"/>
 <wire x1="105.41" y1="27.051" x2="104.209" y2="27.051" width="0.4064" layer="1"/>
-<wire x1="104.209" y1="27.051" x2="103.574" y2="27.686" width="0.4064" layer="1"/>
+<wire x1="104.209" y1="27.051" x2="103.5304" y2="27.686" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$54">
 <contactref element="SJ2" pad="3"/>
@@ -5995,7 +6035,7 @@ design rules under a new name.</description>
 <contactref element="R14" pad="2"/>
 <contactref element="U2" pad="7"/>
 <wire x1="113.196" y1="26.162" x2="114.496" y2="27.462" width="0.254" layer="1"/>
-<wire x1="114.496" y1="27.462" x2="114.496" y2="29.718" width="0.254" layer="1"/>
+<wire x1="114.496" y1="27.462" x2="114.4524" y2="29.718" width="0.254" layer="1"/>
 <wire x1="111.0742" y1="25.781" x2="112.815" y2="25.781" width="0.254" layer="1"/>
 <wire x1="112.815" y1="25.781" x2="113.196" y2="26.162" width="0.254" layer="1"/>
 </signal>
@@ -6168,7 +6208,7 @@ design rules under a new name.</description>
 <wire x1="15.6718" y1="85.217" x2="17.018" y2="85.217" width="0.254" layer="1"/>
 <contactref element="SJ10" pad="2"/>
 <wire x1="15.6718" y1="85.217" x2="14.039" y2="85.217" width="0.4064" layer="1"/>
-<wire x1="14.039" y1="85.217" x2="13.404" y2="84.582" width="0.4064" layer="1"/>
+<wire x1="14.039" y1="85.217" x2="13.3604" y2="84.582" width="0.4064" layer="1"/>
 </signal>
 <signal name="A5">
 <contactref element="U3" pad="1"/>
@@ -6177,7 +6217,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="86.487" x2="15.6718" y2="86.487" width="0.254" layer="1"/>
 <contactref element="SJ11" pad="2"/>
 <wire x1="15.24" y1="86.487" x2="14.039" y2="86.487" width="0.4064" layer="1"/>
-<wire x1="14.039" y1="86.487" x2="13.404" y2="87.122" width="0.4064" layer="1"/>
+<wire x1="14.039" y1="86.487" x2="13.3604" y2="87.122" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$702">
 <contactref element="SJ9" pad="3"/>
@@ -7607,7 +7647,7 @@ design rules under a new name.</description>
 <contactref element="R22" pad="2"/>
 <contactref element="U3" pad="7"/>
 <wire x1="23.026" y1="85.598" x2="24.326" y2="86.898" width="0.254" layer="1"/>
-<wire x1="24.326" y1="86.898" x2="24.326" y2="89.154" width="0.254" layer="1"/>
+<wire x1="24.326" y1="86.898" x2="24.2824" y2="89.154" width="0.254" layer="1"/>
 <wire x1="20.9042" y1="85.217" x2="22.645" y2="85.217" width="0.254" layer="1"/>
 <wire x1="22.645" y1="85.217" x2="23.026" y2="85.598" width="0.254" layer="1"/>
 </signal>
@@ -7780,7 +7820,7 @@ design rules under a new name.</description>
 <wire x1="105.8418" y1="85.217" x2="107.188" y2="85.217" width="0.254" layer="1"/>
 <contactref element="SJ14" pad="2"/>
 <wire x1="105.8418" y1="85.217" x2="104.209" y2="85.217" width="0.4064" layer="1"/>
-<wire x1="104.209" y1="85.217" x2="103.574" y2="84.582" width="0.4064" layer="1"/>
+<wire x1="104.209" y1="85.217" x2="103.5304" y2="84.582" width="0.4064" layer="1"/>
 </signal>
 <signal name="A7">
 <contactref element="U4" pad="1"/>
@@ -7789,7 +7829,7 @@ design rules under a new name.</description>
 <wire x1="105.41" y1="86.487" x2="105.8418" y2="86.487" width="0.254" layer="1"/>
 <contactref element="SJ15" pad="2"/>
 <wire x1="105.41" y1="86.487" x2="104.209" y2="86.487" width="0.4064" layer="1"/>
-<wire x1="104.209" y1="86.487" x2="103.574" y2="87.122" width="0.4064" layer="1"/>
+<wire x1="104.209" y1="86.487" x2="103.5304" y2="87.122" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$1052">
 <contactref element="SJ13" pad="3"/>
@@ -9219,7 +9259,7 @@ design rules under a new name.</description>
 <contactref element="R30" pad="2"/>
 <contactref element="U4" pad="7"/>
 <wire x1="113.196" y1="85.598" x2="114.496" y2="86.898" width="0.254" layer="1"/>
-<wire x1="114.496" y1="86.898" x2="114.496" y2="89.154" width="0.254" layer="1"/>
+<wire x1="114.496" y1="86.898" x2="114.4524" y2="89.154" width="0.254" layer="1"/>
 <wire x1="111.0742" y1="85.217" x2="112.815" y2="85.217" width="0.254" layer="1"/>
 <wire x1="112.815" y1="85.217" x2="113.196" y2="85.598" width="0.254" layer="1"/>
 </signal>
