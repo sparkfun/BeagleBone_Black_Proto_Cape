@@ -12,6 +12,10 @@ Repository Contents
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 * **/Production** - Test bed files and production panel files
 
+Version History
+---------------
+* [V_1.0.0](https://github.com/sparkfun/BeagleBone_Black_Proto_Cape/V_1.0.0) - Public release
+
 License Information
 -------------------
 The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
