@@ -14,7 +14,7 @@ Repository Contents
 
 Version History
 ---------------
-* [V_1.0.0](https://github.com/sparkfun/BeagleBone_Black_Proto_Cape/V_1.0.0) - Public release
+* [V_1.0.0](https://github.com/sparkfun/BeagleBone_Black_Proto_Cape/tree/V_1.0.0) - Public release
 
 License Information
 -------------------
